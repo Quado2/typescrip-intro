@@ -1,6 +1,5 @@
-//UNION
-//A data can be a union of more than one type
-function combine(input1, input2) {
-    return input1.toString() + input2.toString();
+function addPerson(person) {
+    console.log(person);
 }
-console.log(combine('Quado#', 123));
+var okeke = { name: 'quado', age: 12 };
+addPerson(okeke);
